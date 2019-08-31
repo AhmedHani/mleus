@@ -18,4 +18,4 @@ __translator = Translator()
 
 
 def translate(text, src='en', dest='ar'):
-    return __translator.translate(text, src=src, dest=dest)
+    return __translator.translate(text, src=src, dest=dest).text

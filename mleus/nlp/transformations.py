@@ -13,7 +13,7 @@ __email__ = "ahmed.hani.ibrahim@gmail.com"
 
 
 import functools
-from utils.text_utils import Preprocessor
+from mleus.utils.text_utils import Preprocessor
 
 
 class TextTransformations(object):

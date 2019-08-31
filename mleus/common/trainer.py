@@ -11,7 +11,7 @@ __license__ = "BSD 3-Clause License"
 __maintainer__ = "Ahmed H. Al-Ghidani"
 __email__ = "ahmed.hani.ibrahim@gmail.com"
 
-from common.evaluator import SupervisedEvaluator
+from mleus.common.evaluator import SupervisedEvaluator
 
 
 class SupervisedTrainer(object):
