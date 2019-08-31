@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='mleus',
     version='bce',
-    packages=['nlp', 'utils', 'common', 'example', 'models'],
+    packages=['mleus', 'nlp', 'utils', 'common', 'models'],
     url='https://github.com/AhmedHani/mleus',
     license='BSD 3-Clause License',
     author='Ahmed H. Al-Ghidani',

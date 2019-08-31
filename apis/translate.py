@@ -7,7 +7,7 @@
 
 __author__ = "Ahmed H. Al-Ghidani"
 __copyright__ = "Copyright 2018, The nlpeus Project, https://github.com/AhmedHani/nlpeus"
-__license__ = "GPL"
+__license__ = "BSD 3-Clause License"
 __maintainer__ = "Ahmed H. Al-Ghidani"
 
 
