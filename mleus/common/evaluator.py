@@ -6,7 +6,7 @@
 #
 
 __author__ = "Ahmed H. Al-Ghidani"
-__copyright__ = "Copyright 2018, The nlpeus Project, https://github.com/AhmedHani/nlpeus"
+__copyright__ = "Copyright 2018, The mleus Project, https://github.com/AhmedHani/mleus"
 __license__ = "BSD 3-Clause License"
 __maintainer__ = "Ahmed H. Al-Ghidani"
 __email__ = "ahmed.hani.ibrahim@gmail.com"
