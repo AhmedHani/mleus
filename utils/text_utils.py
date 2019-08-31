@@ -60,7 +60,7 @@ class Preprocessor:
         return re.sub(r'[^\w\s]', '', text) 
     
     @staticmethod
-    def saparate_punctuations(text):
+    def separate_punctuations(text):
         for punc in string.punctuation:
             text = text.replace(punc, ' ' + punc)
         

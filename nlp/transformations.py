@@ -53,7 +53,7 @@ class TextTransformations(object):
             pass
 
         def __new__(cls):
-            return Preprocessor.saparate_punctuations
+            return Preprocessor.separate_punctuations
 
     class RemoveChars(object):
 
