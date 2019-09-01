@@ -11,15 +11,21 @@ __license__ = "BSD 3-Clause License"
 __maintainer__ = "Ahmed H. Al-Ghidani"
 __email__ = "ahmed.hani.ibrahim@gmail.com"
 
-from setuptools import setup
+from setuptools import setup, find_packages
+
+
+with open("requirements.txt") as f:
+    required = f.read().splitlines()
 
 setup(
     name='mleus',
     version='bce',
-    packages=['mleus', 'nlp', 'utils', 'common', 'models'],
-    url='https://github.com/AhmedHani/mleus',
-    license='BSD 3-Clause License',
+    description='A personal library for machine learning projects',
+    long_description_content_type="text/markdown",
     author='Ahmed H. Al-Ghidani',
     author_email='ahmed.hani.ibrahim@gmail.com',
-    description='Personal Library'
+    url='https://github.com/AhmedHani/mleus',
+    license='BSD 3-Clause License',
+    install_requires=required,
+    packages=find_packages(exclude="tests")
 )
